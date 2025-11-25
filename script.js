@@ -1,8 +1,8 @@
-// Background music volume
+// Background music volume (optional)
 const bg = document.getElementById('bg-music');
 bg.volume = 0.15;
 
-// Pause other recordings when one begins playing
+// Pause other recordings when one plays
 const voiceAudios = document.querySelectorAll(".voice");
 
 voiceAudios.forEach(audio => {
@@ -14,4 +14,3 @@ voiceAudios.forEach(audio => {
         });
     });
 });
-
