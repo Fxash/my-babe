@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Good Morning, Consolata ❤️</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="https://cdn.pixabay.com/download/audio/2024/02/26/audio_5ddcb8af5e.mp3?filename=romantic-background-195397.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>Good Morning, Consolata ❤️</h1>
+        <div id="poem"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
